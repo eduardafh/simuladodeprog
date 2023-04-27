@@ -1,0 +1,14 @@
+<script>
+    
+    //ENTRADA
+    let area = Number (prompt ("Qual o tamanho da parede?"))
+
+    //PROCESSAMENTO
+    area = area * 0.97;
+    const areaTijolo = 0.19 * 0.19;
+    const tijolos =Math.ceil (area / areaTijolo);
+
+    //SAIDA
+    alert (`Serao necessarios ${tijolos} tijolos.`)
+
+</script>

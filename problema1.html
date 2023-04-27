@@ -1,0 +1,12 @@
+<script>
+
+//ENTRADA
+    const valor = prompt ("Qual o valor do litro bebida?")
+    const quantidade = prompt ("Quando litros voce bebeu?")
+
+//PROCESSAMENTO
+    const resultado = Number (valor) * Number (quantidade)
+    
+//SAIDA
+    document.write (`Voce tera que pagar R$${resultado.toFixed(2).replace (".",".")}.`)
+</script>

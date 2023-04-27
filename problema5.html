@@ -1,0 +1,13 @@
+<script>
+
+    //ENTRADA
+    const valor = Number (prompt ("Qual o valor da passagem?").replace(",","."))
+
+    //PROCESSAMENTO
+    const ValorMetade = Number (valor / 2)
+    let resultadoFinal = Number (valor + ValorMetade * 22)
+
+    //SAIDA
+    document.write (`O valor de todas as passagem do mes resultaram em: R$${resultadoFinal.toFixed(2).replace (".",",")}.`)
+
+</script>

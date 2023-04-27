@@ -1,0 +1,12 @@
+<script>
+
+//ENTRADA
+const cotacao = Number (prompt ("Qual a cotacao do euro?").replace(",","."))
+const euros = Number (prompt ("Quantos euros seram necessarios?"))
+
+//PROCESSAMENTO
+const resultado = cotacao * euros;
+
+//SAIDA
+document.write (`Em reais, a sua viajem vai ser paga com R$${resultado.toFixed(2).replace(".",",")}.`)
+</script>
